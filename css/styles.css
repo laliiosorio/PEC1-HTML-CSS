@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 26px 0;
+}
+
+header,
+nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    font-family: Georgia, Times, serif;
+    margin-top: 50px;
+}
+
+.page-logo {
+    font-size: 42px;
+}
+
+
+.lab-strong-title {
+    color: #ea6628;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+nav ul li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+.active {
+    font-size: 18px;
+}
+
+main {
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 1080px;
+    margin: 60px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 38px;
+}
+
+.subtitle {
+    max-width: 1000px;
+    text-align: center;
+}
+
+.subtitle:last-child {
+    margin-top: 0;
+}
+
+figure {
+    margin: 40px auto;
+}
+
+img {
+    max-width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+iframe {
+    display: flex;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 12px;
+    padding: 18px 0 0;
+    text-align: center;
+}
+
+article {
+    text-align: start;
+    line-height: 25px;
+}
+
+article blockquote {
+    font-family: Georgia, Times, serif;
+}
+
+.red-text {
+    color: red;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background: #91d3c5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer span {
+    font-size: 14px
+}
+
+footer a {
+    color: #167763;
+}
+
+section {
+    line-height: 25px;
+}
+
+dl dt {
+    color: #ea6628;
+    font-weight: bold;
+}
+
+dl dd {
+    padding: 18px 0 12px;
+}
+
+.nested-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-title-icon::before {
+    content: url('../img/book.png');
+}
+
+.inside-list {
+    margin-top: 8px;
+    padding: 0 60px;
+}
+
+.more-bibliography{
+    margin-top: 28px;
+}
